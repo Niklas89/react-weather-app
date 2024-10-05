@@ -6,7 +6,7 @@ Get an API key to search for cities on [RapidApi](https://rapidapi.com/wirefreet
 
 Get an API key to display the weather on [OpenWeather](https://openweathermap.org/), sign up and display the weather for free.
 
-The minimum population can be configured in the component search.js and the API keys can be set in api.js.
+The minimum population can be changed in the component search.js and the API keys can be added in api.js.
 
 # Getting Started with Create React App
 
