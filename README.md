@@ -1,10 +1,12 @@
 # React weather app
 
-Search for a city and view the displayed weather for that city.
+Search for a city that has a minimum population of 1000000 and view the displayed weather for that city.
 
 Get an API key to search for cities on [RapidApi](https://rapidapi.com/wirefreethought/api/geodb-cities), sign up and subscribe for free to "GeoDB Cities".
 
 Get an API key to display the weather on [OpenWeather](https://openweathermap.org/), sign up and display the weather for free.
+
+The minimum population can be configured in the component search.js and the API keys can be set in api.js.
 
 # Getting Started with Create React App
 
