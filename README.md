@@ -1,3 +1,11 @@
+# React weather app
+
+Search for a city and view the displayed weather for that city.
+
+Get an API key to search for cities on [RapidApi](https://rapidapi.com/wirefreethought/api/geodb-cities), sign up and subscribe for free to "GeoDB Cities".
+
+Get an API key to display the weather on [OpenWeather](https://openweathermap.org/), sign up and display the weather for free.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
