@@ -1,0 +1,16 @@
+services:
+  weather-app:
+    image: weather-app
+    build:
+      context: .
+    container_name: weather-app_c
+    ports:
+      - '3000:3000'
+    stdin_open: true
+    tty: true
+    env_file: 
+      - .env
+    volumes:
+      - ./:/app
+      - /app/node_modules
+      - ./.env:/app/.env
