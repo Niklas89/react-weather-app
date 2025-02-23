@@ -1,11 +1,11 @@
 services:
   weather-app:
-    image: weather-app
+    image: niklasedelstam/react-weather-app
     build:
       context: .
     container_name: weather-app_c
     ports:
-      - '3000:3000'
+      - '8082:8082'
     stdin_open: true
     tty: true
     env_file: 
